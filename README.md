@@ -12,7 +12,7 @@
     - sklearn.dataset
         - 最初使用了 scikit learn 的数据集，并使用 matplotlib 做了可视化，验证神经网络的正确性。 最后也使用了 UCI 的 Iris 数据集。
     - sklearn.processing
-        - 使用 sklearn.processing.scale 做 z-score 标准化
+        - 使用 sklearn.preprocessing.scale 做 z-score 标准化
 
 ## 二、功能实现
 
@@ -35,11 +35,11 @@ Bonus：
 1. sklearn.datasets.make_moons(200, noise=0.20)
 - 数据集预览
   
-    ![moon](./image/moon.png)
+    <img src="./image/moon.png" width = "400" height = "300" alt="moon"/>
     
 - 训练结果(选择 tanh 激活函数，迭代20000次)
 
-    ![moon_result](./image/moon_result.png)
+    <img src="./image/moon_result.png" width = "400" height = "300" alt="moon_result"/>
 
 1. UCI - [Iris](https://archive.ics.uci.edu/ml/datasets/Iris) 
 - 数据集预览(after shuffle)
@@ -151,4 +151,4 @@ Bonus：
         plt.title("3 Hidden Layer")
         ```
 
-        ![decision](./image/decision.png)
+        <img src="./image/decision.png" width = "400" height = "300" alt="decision"/>
