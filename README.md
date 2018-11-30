@@ -16,7 +16,7 @@
 
 ## 二、功能实现
 
-基础功能全部实现。
+基础功能全部实现。
 
 Bonus：
 
@@ -129,7 +129,7 @@ Bonus：
                 - default: 20000
             - print_loss: 是否打印 acc 和 loss
                 - default: False
-            - activation: 激活函数
+            - activation: 激活函数
                 - default: "tanh"
         - Example:
             
