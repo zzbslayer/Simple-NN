@@ -20,13 +20,13 @@
 
 Bonus：
 
-[ ] 隐藏层可变
-[x] 隐层节点数可变
-[x] 激活函数可选
-[x] 数据为矩阵
-[x] 输入层维度可变
-[x] 输出层维度可变
-[x] 使用 UCI ML Repository 的数据集
+- [ ] 隐藏层可变
+- [x] 隐层节点数可变
+- [x] 激活函数可选
+- [x] 数据为矩阵
+- [x] 输入层维度可变
+- [x] 输出层维度可变
+- [x] 使用 UCI ML Repository 的数据集
 
 ## 三、模型质量
 
@@ -41,7 +41,7 @@ Bonus：
 
     ![moon_result](./image/moon_result.png)
 
-1. UCI - ![Iris](https://archive.ics.uci.edu/ml/datasets/Iris) 
+1. UCI - [Iris](https://archive.ics.uci.edu/ml/datasets/Iris) 
 - 数据集预览(after shuffle)
   
 | No | sepal length | sepal width | petal length | petal width | class |
